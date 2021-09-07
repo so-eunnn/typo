@@ -1,0 +1,135 @@
+body {
+    line-height: var(--base);
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    /*overflow: hidden;*/
+}
+
+
+.up {
+    position: absolute;
+    left: 90%;
+    top: 0;
+    z-index: 10;
+    width: 1px;
+    background: #000;
+    height: 1620px;
+}
+
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 120%;
+    z-index: 10;
+    background: #000;
+    width: 2520px;
+    height: 1px;
+    pointer-events: none;
+}
+
+.nav {
+    height: 11.5vw;
+    bottom: 0.9vw;
+    left: 0.625vw;
+    position: fixed;
+    z-index: 1111111;
+}
+
+.nav2 {
+  height: 170px;
+}
+
+/* 예전 파일 */
+
+
+.main {
+  background: gray;
+  display: inline-block;
+  border: 1px solid black;
+  z-index: 10000;
+  /*margin-top: 20px*/
+} 
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 420px);
+  grid-template-rows: repeat(4, 405px);
+  grid-gap: 1px;
+  z-index: 10000;
+}
+
+.cell {
+   /* center the cell content */ 
+  justify-content: center; 
+  align-items: center; 
+  display: flex;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: medium;
+  z-index: 10000;
+}
+
+.square {
+   /* center the cell content */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: Arial;
+  font-size: 247px;
+  font-weight: bold;
+  background: white;
+}
+
+.i {
+  float: left;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0px
+}
+
+.n {
+  float: left;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: medium;
+  margin-left: 1195px
+}
+
+.cat {
+   /* center the cell content */
+  justify-content: center;
+  align-items: top;
+  display: flex;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: medium;
+  background: white;
+}
+
+  .cat2 {
+   /* center the cell content */
+  justify-content: center;
+  align-items: ;
+  display: flex;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: medium;
+  background: white;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: black;
+  display: block;
+}
+
+.person {
+    display: block;
+    margin-top: 1px;
+    margin-left: 11px;
+    height: 11px;
+}
